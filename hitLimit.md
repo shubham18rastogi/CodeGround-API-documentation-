@@ -1,5 +1,6 @@
 ---
 layout : default
+hitLimitClass : active
 ---
 
 ###Throttling

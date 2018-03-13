@@ -1,5 +1,6 @@
 ---
 layout : default
+authenticationClass : active
 ---
 
 ###Authentication

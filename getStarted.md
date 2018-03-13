@@ -1,5 +1,6 @@
 ---
 layout : default
+getStartedClass : active
 ---
 
 

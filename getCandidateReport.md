@@ -1,5 +1,6 @@
 ---
 layout : default
+getCandidateReportClass: active
 ---
 
 Get Candidate Report

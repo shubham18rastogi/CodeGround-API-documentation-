@@ -1,5 +1,6 @@
 ---
 layout : default
+generateInviteLinkClass : active
 ---
 
 Generate Invite Link
