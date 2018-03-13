@@ -2,9 +2,17 @@
 layout : default
 ---
 
-The API consumer must have valid Codeground account and API key. To get API key, please contact Codeground Support.
+Welcome to Codeground Harvester API. Harvester api provides capabilities of 
+---
 
-Email: support@codeground.in
-Subject: Request to access Harvester API
+1. fetching test details
+2. register candidate for test 
+3. retrieve test report
+4. Webhook to get notified of system events.
 
-Before diving into the API , familiarity with Codeground UI and flow will be beneficiary. Check out  https://helpcenter.codeground.in/?ht_kb=how-to-successfully-create-a-test-and-host-it 
+Using the  Harvester API, you can *develop* or integrate with Codeground application seamlessly.
+
+Codeground API is REST styled API which uses API Key for authentication, and return JSON.
+
+To get started, head to Pre-requisite section 
+---

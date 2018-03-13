@@ -4,4 +4,4 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-{%include_relative README.md %}
+{%include_relative getStarted.md %}
