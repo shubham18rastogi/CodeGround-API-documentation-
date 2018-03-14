@@ -4,10 +4,10 @@ getCandidateReportClass: active
 ---
 
 <center> <h1>Get Candidate Report</h1></center>
-<br><br>                                          
+<br>                                          
 
 ### Description
-Returns report of Candidate
+Returns the report of Candidate
 
 ### URL
 ```

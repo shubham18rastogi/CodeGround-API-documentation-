@@ -4,7 +4,7 @@ generateInviteLinkClass : active
 ---
 
 <center> <h1>Generate Invite Link</h1></center>
-<br><br>                                          
+<br>                                          
 
 ### Description
 Returns *inviteId* and *test links* for candidates
