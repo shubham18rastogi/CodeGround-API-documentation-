@@ -50,7 +50,7 @@ Returns a array of Object, where each object represent a live test .
 ]
 ```
 
-###Possible Exceptions
+### Possible Exceptions
 ```
 Status Code: 600
 {"errorMessage": "apiKey can't be null"}
