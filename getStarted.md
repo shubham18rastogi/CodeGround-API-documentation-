@@ -6,7 +6,7 @@ getStartedClass : active
 
 Welcome to Codeground Harvester API. Harvester API provides capabilities of 
 
-1. Eetching test details
+1. Fetching test details
 2. Register candidate for test 
 3. Retrieve test report
 4. Webhook to get notified of system events.
