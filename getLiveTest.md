@@ -17,7 +17,7 @@ https://BASE-URL/harvest/api/v1/getLiveTests/{pageNo}
 ```
 
 ### Sample Response Data
-Returns a array of Object, where each object represent a live test .
+Returns an array of Object, where each object represent a live test .
 ```
 [
     {
@@ -27,7 +27,8 @@ Returns a array of Object, where each object represent a live test .
         "testCloseTime": 1521526860000,// When will the test close timestamp in GMT
         "totalMarks": 8,  // total marks for the test
         "cutOffMarks": 0,  // cut off Marks for the test
-        "candidateReportNotificationUrl": null  //  whenever candidate completes the test thisWebhook will be called to notify.
+        "candidateReportNotificationUrl": null  //  whenever candidate completes the test this Webhook 
+                                                    will be called to notify.
     },
     {
         "testId": 318,

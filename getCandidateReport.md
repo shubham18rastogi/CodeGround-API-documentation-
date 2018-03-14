@@ -48,6 +48,7 @@ or
 ```
 ```
 Status Code: 500
-{"errorMessage": "Internal Server Error, please share the exception id with the CG team::Exception id is xxxxx"}
+{"errorMessage": "Internal Server Error, please share the exception id with the CG team
+	Exception id is xxxxx"}
 ```
 

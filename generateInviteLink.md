@@ -29,8 +29,8 @@ Returns an array of Object, where each object represent a candidate .
 [
     {
         "inviteId": 111,  //  Invite Id
-        "inviteURL": "http://localhost:8080/#/rapidTest/318/userDetails?candidate=5e21f1a852cbaf55bda9b3c212663d7&sessionId=111&email=5@a.com",
-        "candidateEmailId": "5@a.com"  //  Test Link
+        "inviteURL": "http://localhost:8080/#/rapidTest/318/userDetails?candidate=5e21f1a852cbaf55bda9b3c212663d7&sessionId=111&email=5@a.com",  //  Test Link
+        "candidateEmailId": "5@a.com"  //  candidate's Email-Id
     },
     {
         "inviteId": 112,
@@ -57,7 +57,7 @@ Status Code: 601
 Status Code: 602
 {"errorMessage": "Test should be invite only"}
 or
-{"errorMessage": "Invalid EMail {xxx}, No invitation send"}
+{"errorMessage": "Invalid Email {xxx}, No invitation send"}
 or
 {"errorMessage": "Cannot invite candidate on expired test"}
 or
@@ -76,6 +76,7 @@ or
 
 ```
 Status Code: 500
-{"errorMessage": "Internal Server Error, please share the exception id with the CG team::Exception id is xxxxx"}
+{"errorMessage": "Internal Server Error, please share the exception id with the CG team
+    Exception id is xxxxx"}
 ```
 
