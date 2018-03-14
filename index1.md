@@ -10,5 +10,5 @@ Using the  Harvester API, you can *develop* or integrate with Codeground applica
 
 Codeground API is REST styled API which uses API Key for authentication, and return JSON.
 
-To get started, head to Pre-requisite section 
----
+### To get started, head to Pre-requisite section 
+

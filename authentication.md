@@ -3,14 +3,13 @@ layout : default
 authenticationClass : active
 ---
 
-###Authentication
+Authentication
+---
+### Description
 
-Description
-----
 To use Codeground API, you must include API key in HTTP request header for every request you make
 
-Usage
----
+### Usage
  ```
  Header key: apiKey
  

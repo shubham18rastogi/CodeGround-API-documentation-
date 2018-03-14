@@ -8,20 +8,16 @@ Get All Test
 ---
                                            
 
-Description
----
+### Description
 Returns the list of all *Live* tests.
 
-URL
----
-
+### URL
 ```
 Method Type: GET
 https://BASE-URL/harvest/api/v1/getLiveTests/{pageNo}
 ```
 
-Sample Response Data
----
+### Sample Response Data
 Returns a array of Object, where each object represent a live test .
 ```
 [
@@ -55,19 +51,19 @@ Returns a array of Object, where each object represent a live test .
 ]
 ```
 
-Possible Exceptions
----
-
+###Possible Exceptions
 ```
 Status Code: 600
 {"errorMessage": "apiKey can't be null"}
 or 
 {"errorMessage": "apikey not mapped to a user"}
 ```
+
 ```
 Status Code: 602
 {"errorMessage": "Page number can't be negative"}
 ```
+
 ```
 Status Code: 500
 {"errorMessage": "Internal Server Error, please share the exception id with the CG team::Exception id is xxxxx"}

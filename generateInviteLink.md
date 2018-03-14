@@ -7,27 +7,24 @@ Generate Invite Link
 ---
                                            
 
-Description
----
+### Description
 Returns *inviteId* and *test links* for candidates
 
-URL
----
-
+### URL
 ```
 Method Type: POST
 https://BASE-URL/harvest/api/v1/generateInviteLink/{testId}
 ```
-Sample Input Data
----
+
+### Sample Input Data
 Data is sent through Body
 ```
 {
 	"candidateEmail" : ["someEmail", "SomeEmail"]   //  JSON List of Emails
 }
 ```
-Sample Response Data
----
+
+### Sample Response Data
 Returns an array of Object, where each object represent a candidate .
 ```
 [
@@ -44,18 +41,19 @@ Returns an array of Object, where each object represent a candidate .
 ]
 ```
 
-Possible Exceptions
----
+### Possible Exceptions
 ```
 Status Code: 600
 {"errorMessage": "apiKey can't be null"}
 or 
 {"errorMessage": "apikey not mapped to a user"}
 ```
+
 ```
 Status Code: 601
 {"errorMessage": "Authorization failed"}
 ```
+
 ```
 Status Code: 602
 {"errorMessage": "Test should be invite only"}
@@ -68,6 +66,7 @@ or
 or
 {"errorMessage": "testId can't be null"}
 ```
+
 ```
 Status Code: 603
 {"errorMessage": "A max of 500 candidate can be invite at once"}

@@ -7,20 +7,16 @@ Get Candidate Report
 ---
                                            
 
-Description
----
+### Description
 Returns report of Candidate
 
-URL
----
-
+### URL
 ```
 Method Type: GET
 https://BASE-URL/harvest/api/v1/getCandidateReport/{inviteId}
 ```
 
-Sample Response Data
----
+### Sample Response Data
 Returns an Object, where object represent a Candidate's Report .
 ```
 {
@@ -36,8 +32,7 @@ Returns an Object, where object represent a Candidate's Report .
 }
 ```
 
-Possible Exceptions
----
+### Possible Exceptions
 ```
 Status Code: 600
 {"errorMessage": "apiKey can't be null"}
