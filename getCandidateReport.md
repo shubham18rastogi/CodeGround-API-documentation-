@@ -3,9 +3,8 @@ layout : default
 getCandidateReportClass: active
 ---
 
-Get Candidate Report
----
-                                           
+<center> <h1>Get Candidate Report</h1></center>
+<br><br>                                          
 
 ### Description
 Returns report of Candidate

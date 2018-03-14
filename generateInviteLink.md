@@ -3,9 +3,8 @@ layout : default
 generateInviteLinkClass : active
 ---
 
-Generate Invite Link
----
-                                           
+<center> <h1>Generate Invite Link</h1></center>
+<br><br>                                          
 
 ### Description
 Returns *inviteId* and *test links* for candidates

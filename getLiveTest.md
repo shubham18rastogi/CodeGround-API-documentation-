@@ -4,9 +4,8 @@ getLiveTestClass : active
 ---
 
 
-Get All Test
----
-                                           
+<center> <h1>Get All Test</h1></center>
+<br><br>                                           
 
 ### Description
 Returns the list of all *Live* tests.

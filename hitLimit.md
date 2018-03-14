@@ -3,8 +3,7 @@ layout : default
 hitLimitClass : active
 ---
 
-Throttling
----
+<center> <h1>Throttling</h1> </center><br><br>
 Every API user has a API request Limits as follow
 
 1. Max of 5 Open request at a time.

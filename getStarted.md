@@ -2,10 +2,9 @@
 layout : default
 getStartedClass : active
 ---
-
+<center> <h1> Getting Started</h1></center><br><br>
 
 Welcome to Codeground Harvester API. Harvester api provides capabilities of 
----
 
 1. fetching test details
 2. register candidate for test 
