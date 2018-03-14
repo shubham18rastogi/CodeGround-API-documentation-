@@ -8,7 +8,6 @@ getCandidateReportClass: null
 liveApiClass: null
 prerequisitesClass: null
 
-baseurl: "" 
 
 
 # Build settings
